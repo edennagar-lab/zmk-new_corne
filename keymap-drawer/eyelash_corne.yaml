@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - {t: 'A', shifted: '$$mdi:apple-keyboard-control$$'}
-  - {t: 'S', shifted: '$$mdi:apple-keyboard-option$$'}
-  - {t: 'D', shifted: '$$mdi:apple-keyboard-command$$'}
-  - {t: 'F', shifted: '$$mdi:apple-keyboard-shift$$'}
+  - '&hm LEFT_CTRL A'
+  - {t: S, s: '$$mdi:apple-keyboard-option$$'}
+  - '&hm LEFT_GUI D'
+  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - {t: 'J', shifted: '$$mdi:apple-keyboard-shift$$'}
-  - {t: 'K', shifted: '$$mdi:apple-keyboard-command$$'}
-  - {t: 'L', shifted: '$$mdi:apple-keyboard-option$$'}
-  - {t: ';', s: ':', shifted: '$$mdi:apple-keyboard-control$$'}
+  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
+  - '&hm RIGHT_GUI K'
+  - {t: L, s: '$$mdi:apple-keyboard-option$$'}
+  - '&hm RIGHT_CTRL SEMI'
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -64,10 +64,10 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
