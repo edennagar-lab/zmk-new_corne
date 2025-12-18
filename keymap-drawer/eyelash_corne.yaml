@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - A
-  - S
-  - D
-  - F
+  - {t: 'A', shifted: '$$mdi:apple-keyboard-control$$'}
+  - {t: 'S', shifted: '$$mdi:apple-keyboard-option$$'}
+  - {t: 'D', shifted: '$$mdi:apple-keyboard-command$$'}
+  - {t: 'F', shifted: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: 'J', shifted: '$$mdi:apple-keyboard-shift$$'}
+  - {t: 'K', shifted: '$$mdi:apple-keyboard-command$$'}
+  - {t: 'L', shifted: '$$mdi:apple-keyboard-option$$'}
+  - {t: ';', s: ':', shifted: '$$mdi:apple-keyboard-control$$'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
