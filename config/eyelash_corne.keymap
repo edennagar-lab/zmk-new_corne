@@ -68,7 +68,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &hm LEFT_CTRL A  &hm LEFT_ALT S  &hm LEFT_GUI D     &hm LEFT_SHIFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hm RIGHT_SHIFT J  &hm RIGHT_GUI K      &hm RIGHT_ALT L    &hm RIGHT_CTRL SEMI  &kp SQT
+&td0       &hm LCTRL A  &hm LALT S  &hm LGUI D     &hm LSHIFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hm RSHIFT J  &hm RGUI K      &hm RALT L    &hm RCTRL SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                          &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
             >;
